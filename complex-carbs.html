@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex Carbs - Baby Nutrition Guide</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Georgia, serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 5%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .logo h1 {
+            color: #2c3e50;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #2c3e50;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #FF7F50;
+        }
+
+        .nutrition-page {
+            margin-top: 80px;
+            padding: 2rem 5%;
+        }
+
+        .nutrition-hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('carbs.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+        }
+
+        .nutrition-hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .info-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .info-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .info-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .info-card h2 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .info-card ul {
+            list-style-position: inside;
+            margin-left: 1rem;
+        }
+
+        .info-card li {
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            padding: 3rem 5% 1rem;
+            margin-top: 4rem;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-section h3 {
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-section a {
+            color: white;
+            text-decoration: none;
+            opacity: 0.8;
+            transition: opacity 0.3s ease;
+        }
+
+        .footer-section a:hover {
+            opacity: 1;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .social-links a {
+            font-size: 1.5rem;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            
+            .nutrition-hero {
+                padding: 3rem 1rem;
+            }
+            
+            .nutrition-hero h1 {
+                font-size: 2rem;
+            }
+
+            .info-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Baby Nutrition Guide</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="iron-rich-foods.html">Iron</a></li>
+                <li><a href="protein-sources.html">Protein</a></li>
+                <li><a href="healthy-fats.html">Fats</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="nutrition-page">
+        <section class="nutrition-hero">
+            <div class="nutrition-content">
+                <h1>Complex Carbs</h1>
+                <p class="subtitle">Energy for active toddlers and brain function</p>
+            </div>
+        </section>
+
+        <section class="nutrition-info">
+            <div class="info-container">
+                <div class="info-card">
+                    <h2>Why Complex Carbs are Important</h2>
+                    <p>Complex carbohydrates are essential for your baby's development as they:</p>
+                    <ul>
+                        <li>Provide sustained energy</li>
+                        <li>Support brain development</li>
+                        <li>Help maintain stable blood sugar</li>
+                        <li>Contribute to healthy digestion</li>
+                    </ul>
+                </div>
+
+                <div class="info-card">
+                    <h2>Best Complex Carb Sources</h2>
+                    <ul>
+                        <li>Whole grains (oats, quinoa, brown rice)</li>
+                        <li>Sweet potatoes</li>
+                        <li>Whole grain bread</li>
+                        <li>Legumes (beans, lentils)</li>
+                        <li>Fruits (apples, bananas, berries)</li>
+                        <li>Vegetables (carrots, peas, corn)</li>
+                    </ul>
+                </div>
+
+                <div class="info-card">
+                    <h2>Preparation Tips</h2>
+                    <ul>
+                        <li>Start with well-cooked, soft grains</li>
+                        <li>Puree or mash fruits and vegetables</li>
+                        <li>Introduce new foods gradually</li>
+                        <li>Watch for any digestive issues</li>
+                        <li>Choose whole grain options over refined</li>
+                    </ul>
+                </div>
+
+                <div class="info-card">
+                    <h2>Age-Appropriate Serving Sizes</h2>
+                    <ul>
+                        <li>6-8 months: 1-2 tablespoons pureed carbs</li>
+                        <li>8-10 months: 2-3 tablespoons soft carbs</li>
+                        <li>10-12 months: 3-4 tablespoons soft carbs</li>
+                        <li>12+ months: 4+ tablespoons soft carbs</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="iron-rich-foods.html">Iron-Rich Foods</a></li>
+                    <li><a href="protein-sources.html">Protein Sources</a></li>
+                    <li><a href="healthy-fats.html">Healthy Fats</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li>Email: info@babynutritionguide.com</li>
+                    <li>Phone: (555) 123-4567</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Baby Nutrition Guide. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

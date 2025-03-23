@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes for 9-12 Months - Baby Food Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .recipe-header {
+            background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)),
+                        url('baby-food-finger.jpg') center/cover;
+            padding: 4rem 2rem;
+            text-align: center;
+            margin-top: 80px;
+        }
+
+        .recipe-header h1 {
+            color: #333;
+            margin-bottom: 1rem;
+        }
+
+        .recipe-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .recipe-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .recipe-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .recipe-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-bottom: 1px solid #eee;
+        }
+
+        .recipe-card h2 {
+            color: #e84615;
+            padding: 1rem;
+            margin: 0;
+        }
+
+        .recipe-content {
+            padding: 1rem;
+        }
+
+        .ingredients, .instructions {
+            margin-bottom: 1rem;
+        }
+
+        .ingredients h3, .instructions h3 {
+            color: #e84615;
+            margin-bottom: 0.5rem;
+        }
+
+        .ingredients ul {
+            list-style-type: disc;
+            padding-left: 1.5rem;
+        }
+
+        .instructions ol {
+            padding-left: 1.5rem;
+        }
+
+        .tips {
+            background-color: #f9f9f9;
+            padding: 1rem;
+            border-radius: 5px;
+            margin-top: 1rem;
+        }
+
+        .tips h3 {
+            color: #e84615;
+            margin-bottom: 0.5rem;
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background-color: #e84615;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: #d13f13;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Baby Food & Nutrition Guide</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#nutrition">Nutrition</a></li>
+                <li><a href="index.html#recipes">Recipes</a></li>
+                <li><a href="index.html#feeding-guide">Feeding Guide</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="recipe-header">
+            <h1>Recipes for 9-12 Months</h1>
+            <p>Soft finger foods and nutritious combinations for your growing baby</p>
+        </section>
+
+        <div class="recipe-grid">
+            <div class="recipe-card">
+                <img src="mini-pancakes.jpg" alt="Mini Banana Pancakes" class="recipe-image">
+                <h2>Mini Banana Pancakes</h2>
+                <div class="recipe-content">
+                    <div class="ingredients">
+                        <h3>Ingredients:</h3>
+                        <ul>
+                            <li>1 ripe banana, mashed</li>
+                            <li>1 egg</li>
+                            <li>2 tbsp whole wheat flour</li>
+                            <li>1/4 tsp cinnamon</li>
+                            <li>Butter for cooking</li>
+                        </ul>
+                    </div>
+                    <div class="instructions">
+                        <h3>Instructions:</h3>
+                        <ol>
+                            <li>Mix mashed banana with egg</li>
+                            <li>Stir in flour and cinnamon</li>
+                            <li>Make small dollar-sized pancakes</li>
+                            <li>Cook until golden on both sides</li>
+                            <li>Cut into finger-sized strips</li>
+                        </ol>
+                    </div>
+                    <div class="tips">
+                        <h3>Tips:</h3>
+                        <p>Make sure pancakes are cool and cut into appropriate sizes. Perfect for baby-led weaning.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recipe-card">
+                <img src="veggie-pasta.jpg" alt="Soft Veggie Pasta" class="recipe-image">
+                <h2>Soft Veggie Pasta</h2>
+                <div class="recipe-content">
+                    <div class="ingredients">
+                        <h3>Ingredients:</h3>
+                        <ul>
+                            <li>1 cup small pasta shapes</li>
+                            <li>1/2 cup carrots, finely diced</li>
+                            <li>1/2 cup peas</li>
+                            <li>1/4 cup corn</li>
+                            <li>2 tbsp olive oil</li>
+                        </ul>
+                    </div>
+                    <div class="instructions">
+                        <h3>Instructions:</h3>
+                        <ol>
+                            <li>Cook pasta until very soft</li>
+                            <li>Steam vegetables until tender</li>
+                            <li>Mix pasta with vegetables</li>
+                            <li>Drizzle with olive oil</li>
+                            <li>Cut larger pieces if needed</li>
+                        </ol>
+                    </div>
+                    <div class="tips">
+                        <h3>Tips:</h3>
+                        <p>Choose small pasta shapes like stars or small shells. Ensure all pieces are soft and manageable.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recipe-card">
+                <img src="egg-fingers.jpg" alt="Egg and Toast Fingers" class="recipe-image">
+                <h2>Egg and Toast Fingers</h2>
+                <div class="recipe-content">
+                    <div class="ingredients">
+                        <h3>Ingredients:</h3>
+                        <ul>
+                            <li>2 eggs</li>
+                            <li>2 slices whole grain bread</li>
+                            <li>1 tbsp butter</li>
+                            <li>Pinch of herbs (optional)</li>
+                        </ul>
+                    </div>
+                    <div class="instructions">
+                        <h3>Instructions:</h3>
+                        <ol>
+                            <li>Scramble eggs until fully cooked</li>
+                            <li>Toast bread lightly</li>
+                            <li>Spread butter on toast</li>
+                            <li>Top toast with scrambled eggs</li>
+                            <li>Cut into finger-sized strips</li>
+                        </ol>
+                    </div>
+                    <div class="tips">
+                        <h3>Tips:</h3>
+                        <p>Ensure eggs are fully cooked and toast is soft enough to gum. Great source of protein and iron.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recipe-card">
+                <img src="sweet potato sticks.jpg" alt="Sweet Potato Sticks" class="recipe-image">
+                <h2>Sweet Potato Sticks</h2>
+                <div class="recipe-content">
+                    <div class="ingredients">
+                        <h3>Ingredients:</h3>
+                        <ul>
+                            <li>1 large sweet potato</li>
+                            <li>1 tbsp olive oil</li>
+                            <li>Pinch of cinnamon (optional)</li>
+                        </ul>
+                    </div>
+                    <div class="instructions">
+                        <h3>Instructions:</h3>
+                        <ol>
+                            <li>Peel and cut into finger-sized sticks</li>
+                            <li>Toss with olive oil</li>
+                            <li>Bake at 375°F until very soft</li>
+                            <li>Cool completely before serving</li>
+                        </ol>
+                    </div>
+                    <div class="tips">
+                        <h3>Tips:</h3>
+                        <p>Make sure sticks are soft enough to squish between your fingers. Great for developing pincer grasp.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recipe-card">
+                <img src="Fruity Yogurt Blend.jpg" alt="Fruity Yogurt Blend" class="recipe-image">
+                <h2>Fruity Yogurt Blend</h2>
+                <div class="recipe-content">
+                    <div class="ingredients">
+                        <h3>Ingredients:</h3>
+                        <ul>
+                            <li>1/2 cup full-fat plain yogurt</li>
+                            <li>1/4 cup mashed strawberries</li>
+                            <li>1/4 banana, diced</li>
+                            <li>1 tbsp ground oats</li>
+                        </ul>
+                    </div>
+                    <div class="instructions">
+                        <h3>Instructions:</h3>
+                        <ol>
+                            <li>Mash strawberries until smooth</li>
+                            <li>Mix with yogurt</li>
+                            <li>Add diced banana</li>
+                            <li>Sprinkle with ground oats</li>
+                        </ol>
+                    </div>
+                    <div class="tips">
+                        <h3>Tips:</h3>
+                        <p>Use whole milk yogurt for healthy fats. Ensure fruit pieces are small enough to prevent choking.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recipe-card">
+                <img src="Tender Chicken and Rice.jpg" alt="Tender Chicken and Rice" class="recipe-image">
+                <h2>Tender Chicken and Rice</h2>
+                <div class="recipe-content">
+                    <div class="ingredients">
+                        <h3>Ingredients:</h3>
+                        <ul>
+                            <li>1/2 cup cooked rice</li>
+                            <li>1/4 cup shredded chicken</li>
+                            <li>1/4 cup peas and carrots</li>
+                            <li>2 tbsp breast milk or formula</li>
+                        </ul>
+                    </div>
+                    <div class="instructions">
+                        <h3>Instructions:</h3>
+                        <ol>
+                            <li>Cook rice until very soft</li>
+                            <li>Shred cooked chicken finely</li>
+                            <li>Steam vegetables until tender</li>
+                            <li>Mix all ingredients</li>
+                            <li>Add liquid for moisture</li>
+                        </ol>
+                    </div>
+                    <div class="tips">
+                        <h3>Tips:</h3>
+                        <p>Ensure chicken is very tender and finely shredded. Rich in protein and iron.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a href="index.html#recipes" class="back-button">
+            <i class="fas fa-arrow-left"></i> Back to Recipes
+        </a>
+    </main>
+</body>
+</html> 

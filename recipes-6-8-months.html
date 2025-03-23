@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes for 6-8 Months - Baby Food Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .recipe-header {
+            background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)),
+                        url('baby-food.jpg') center/cover;
+            padding: 4rem 2rem;
+            text-align: center;
+            margin-top: 80px;
+        }
+
+        .recipe-header h1 {
+            color: #333;
+            margin-bottom: 1rem;
+        }
+
+        .recipe-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .recipe-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .recipe-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-bottom: 1px solid #eee;
+        }
+
+        .recipe-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .recipe-card h2 {
+            color: #e84615;
+            padding: 1rem;
+            margin: 0;
+        }
+
+        .recipe-content {
+            padding: 1rem;
+        }
+
+        .ingredients, .instructions {
+            margin-bottom: 1rem;
+        }
+
+        .ingredients h3, .instructions h3 {
+            color: #e84615;
+            margin-bottom: 0.5rem;
+        }
+
+        .ingredients ul {
+            list-style-type: disc;
+            padding-left: 1.5rem;
+        }
+
+        .instructions ol {
+            padding-left: 1.5rem;
+        }
+
+        .tips {
+            background-color: #f9f9f9;
+            padding: 1rem;
+            border-radius: 5px;
+            margin-top: 1rem;
+        }
+
+        .tips h3 {
+            color: #e84615;
+            margin-bottom: 0.5rem;
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background-color: #e84615;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: #d13f13;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Baby Food & Nutrition Guide</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#nutrition">Nutrition</a></li>
+                <li><a href="index.html#recipes">Recipes</a></li>
+                <li><a href="index.html#feeding-guide">Feeding Guide</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="recipe-header">
+            <h1>Recipes for 6-8 Months</h1>
+            <p>Simple, nutritious purees and mashed foods for your baby's first solid foods journey</p>
+        </section>
+
+        <div class="recipe-grid">
+            <div class="recipe-card">
+                <img src="first food.jpg" alt="Sweet Potato Puree" class="recipe-image">
+                <h2>Sweet Potato Puree</h2>
+                <div class="recipe-content">
+                    <div class="ingredients">
+                        <h3>Ingredients:</h3>
+                        <ul>
+                            <li>1 medium sweet potato</li>
+                            <li>Breast milk or formula (for consistency)</li>
+                        </ul>
+                    </div>
+                    <div class="instructions">
+                        <h3>Instructions:</h3>
+                        <ol>
+                            <li>Peel and cut sweet potato into small cubes</li>
+                            <li>Steam until very tender (about 15 minutes)</li>
+                            <li>Blend until smooth</li>
+                            <li>Add milk/formula to achieve desired consistency</li>
+                        </ol>
+                    </div>
+                    <div class="tips">
+                        <h3>Tips:</h3>
+                        <p>Start with a thinner consistency and gradually thicken as baby adjusts to solid foods.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recipe-card">
+                <img src="apple and pear puree.jpg" alt="Apple and Pear Puree" class="recipe-image">
+                <h2>Apple and Pear Puree</h2>
+                <div class="recipe-content">
+                    <div class="ingredients">
+                        <h3>Ingredients:</h3>
+                        <ul>
+                            <li>1 apple, peeled and cored</li>
+                            <li>1 ripe pear, peeled and cored</li>
+                            <li>Water for steaming</li>
+                        </ul>
+                    </div>
+                    <div class="instructions">
+                        <h3>Instructions:</h3>
+                        <ol>
+                            <li>Cut fruits into small pieces</li>
+                            <li>Steam until soft (about 8-10 minutes)</li>
+                            <li>Blend until smooth</li>
+                            <li>Cool before serving</li>
+                        </ol>
+                    </div>
+                    <div class="tips">
+                        <h3>Tips:</h3>
+                        <p>Choose ripe, soft fruits for the smoothest puree. Can be frozen in ice cube trays for later use.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recipe-card">
+                <img src="basic rice cereal.jpg" alt="Basic Rice Cereal" class="recipe-image">
+                <h2>Basic Rice Cereal</h2>
+                <div class="recipe-content">
+                    <div class="ingredients">
+                        <h3>Ingredients:</h3>
+                        <ul>
+                            <li>2 tablespoons iron-fortified rice cereal</li>
+                            <li>4-5 tablespoons breast milk or formula</li>
+                        </ul>
+                    </div>
+                    <div class="instructions">
+                        <h3>Instructions:</h3>
+                        <ol>
+                            <li>Place cereal in a small bowl</li>
+                            <li>Gradually stir in warm milk/formula</li>
+                            <li>Mix until smooth and runny</li>
+                        </ol>
+                    </div>
+                    <div class="tips">
+                        <h3>Tips:</h3>
+                        <p>Start with a very thin consistency (almost liquid) and gradually thicken over time.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recipe-card">
+                <img src="banana avocado mash.jpg" alt="Banana Avocado Mash" class="recipe-image">
+                <h2>Banana Avocado Mash</h2>
+                <div class="recipe-content">
+                    <div class="ingredients">
+                        <h3>Ingredients:</h3>
+                        <ul>
+                            <li>1 ripe banana</li>
+                            <li>1/2 ripe avocado</li>
+                            <li>Breast milk or formula (optional, for consistency)</li>
+                        </ul>
+                    </div>
+                    <div class="instructions">
+                        <h3>Instructions:</h3>
+                        <ol>
+                            <li>Peel and mash the banana</li>
+                            <li>Scoop out and mash the avocado</li>
+                            <li>Combine both ingredients and mix well</li>
+                            <li>Add milk/formula if needed for smoother consistency</li>
+                        </ol>
+                    </div>
+                    <div class="tips">
+                        <h3>Tips:</h3>
+                        <p>Use very ripe bananas and fresh avocados. Best served immediately to prevent browning.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recipe-card">
+                <img src="carrot-beans.jpg" alt="Carrot and Green Bean Puree" class="recipe-image">
+                <h2>Carrot and Green Bean Puree</h2>
+                <div class="recipe-content">
+                    <div class="ingredients">
+                        <h3>Ingredients:</h3>
+                        <ul>
+                            <li>2 medium carrots</li>
+                            <li>1 cup fresh green beans</li>
+                            <li>Water for steaming</li>
+                            <li>Breast milk or formula (for consistency)</li>
+                        </ul>
+                    </div>
+                    <div class="instructions">
+                        <h3>Instructions:</h3>
+                        <ol>
+                            <li>Peel and chop carrots into small pieces</li>
+                            <li>Trim and cut green beans</li>
+                            <li>Steam vegetables until very tender (about 12-15 minutes)</li>
+                            <li>Blend until smooth, adding liquid as needed</li>
+                        </ol>
+                    </div>
+                    <div class="tips">
+                        <h3>Tips:</h3>
+                        <p>Can be frozen in small portions. Thaw overnight in refrigerator when needed.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recipe-card">
+                <img src="butternut-squash.jpg" alt="Butternut Squash Puree" class="recipe-image">
+                <h2>Butternut Squash Puree</h2>
+                <div class="recipe-content">
+                    <div class="ingredients">
+                        <h3>Ingredients:</h3>
+                        <ul>
+                            <li>1 cup butternut squash, peeled and cubed</li>
+                            <li>Water for steaming</li>
+                            <li>Breast milk or formula (optional)</li>
+                        </ul>
+                    </div>
+                    <div class="instructions">
+                        <h3>Instructions:</h3>
+                        <ol>
+                            <li>Peel and cut squash into small cubes</li>
+                            <li>Steam until very soft (about 15-20 minutes)</li>
+                            <li>Let cool slightly</li>
+                            <li>Blend until smooth, adding liquid if needed</li>
+                        </ol>
+                    </div>
+                    <div class="tips">
+                        <h3>Tips:</h3>
+                        <p>Rich in vitamin A and naturally sweet. Perfect for baby's first foods.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a href="index.html#recipes" class="back-button">
+            <i class="fas fa-arrow-left"></i> Back to Recipes
+        </a>
+    </main>
+</body>
+</html> 

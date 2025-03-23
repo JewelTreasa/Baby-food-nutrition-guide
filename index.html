@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baby Food & Nutrition Guide (6-24 months)</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .nav-links a:hover {
+            color: #e84615 !important;
+        }
+        
+        .logo h1, 
+        .footer-section h3,
+        .timeline-item h3,
+        .recipe-card h3,
+        .recipe-link,
+        .nutrition-card i {
+            color: #e84615;
+        }
+
+        .hero-content h1,
+        .nutrition-section h2,
+        .recipes-section h2,
+        .feeding-guide h2,
+        .contact-section h2 {
+            color: #333;
+        }
+        
+        .cta-button, .nutrition-card .cta-button, .submit-button {
+            background-color: #e84615;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover, .nutrition-card .cta-button:hover, .submit-button:hover {
+            background-color: #d13f13;
+        }
+
+        .recipe-link {
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .recipe-link:hover {
+            color: #d13f13;
+        }
+
+        .timeline-item ul li:before {
+            color: #e84615;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Baby Food & Nutrition Guide</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#nutrition">Nutrition</a></li>
+                <li><a href="#recipes">Recipes</a></li>
+                <li><a href="#feeding-guide">Feeding Guide</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Your Baby's Nutrition Journey </h1>
+                <p>Expert guidance for healthy baby food choices and nutrition from 6 months to 2 years</p>
+                <a href="#nutrition" class="cta-button">Get Started</a>
+            </div>
+        </section>
+
+        <section id="nutrition" class="nutrition-section">
+            <h2>Essential Nutrients for Your Growing Baby</h2>
+            <div class="nutrition-grid">
+                <div class="nutrition-card">
+                    <i class="fas fa-apple-alt"></i>
+                    <h3>Iron-Rich Foods</h3>
+                    <p>Essential for brain development and preventing anemia</p>
+                    <a href="iron-rich-foods.html" class="cta-button">Learn More</a>
+                </div>
+                <div class="nutrition-card">
+                    <i class="fas fa-seedling"></i>
+                    <h3>Protein Sources</h3>
+                    <p>Building blocks for growth and muscle development</p>
+                    <a href="protein-sources.html" class="cta-button">Learn More</a>
+                </div>
+                <div class="nutrition-card">
+                    <i class="fas fa-bread-slice"></i>
+                    <h3>Complex Carbs</h3>
+                    <p>Energy for active toddlers and brain function</p>
+                    <a href="complex-carbs.html" class="cta-button">Learn More</a>
+                </div>
+                <div class="nutrition-card">
+                    <i class="fas fa-droplet"></i>
+                    <h3>Healthy Fats</h3>
+                    <p>DHA and omega-3s for brain and eye development</p>
+                    <a href="healthy-fats.html" class="cta-button">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="recipes" class="recipes-section">
+            <h2>Age-Appropriate Recipes</h2>
+            <div class="recipe-grid">
+                <div class="recipe-card">
+                    <img src="first.jpg" alt="First Foods">
+                    <h3>6-8 Months</h3>
+                    <p>Simple purees and mashed foods</p>
+                    <a href="recipes-6-8-months.html" class="recipe-link">View Recipes</a>
+                </div>
+                <div class="recipe-card">
+                    <img src="mix.jpg" alt="Veggie Mix">
+                    <h3>9-12 Months</h3>
+                    <p>Soft finger foods and combinations</p>
+                    <a href="recipes-9-12-months.html" class="recipe-link">View Recipes</a>
+                </div>
+                <div class="recipe-card">
+                    <img src="med.jpg" alt="Fruit Medley">
+                    <h3>12-24 Months</h3>
+                    <p>Family-style meals with modifications</p>
+                    <a href="recipes-12-24-months.html" class="recipe-link">View Recipes</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="feeding-guide" class="feeding-guide">
+            <h2>Feeding Guide by Age</h2>
+            <div class="guide-timeline">
+                <div class="timeline-item">
+                    <h3>6-8 Months</h3>
+                    <p>Start with single-ingredient purees and mashed foods</p>
+                    <ul>
+                        <li>Iron-fortified cereals</li>
+                        <li>Pureed vegetables</li>
+                        <li>Mashed fruits</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <h3>9-12 Months</h3>
+                    <p>Introduce soft finger foods and combinations</p>
+                    <ul>
+                        <li>Soft cooked vegetables</li>
+                        <li>Small pieces of fruit</li>
+                        <li>Protein-rich foods</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <h3>12-18 Months</h3>
+                    <p>Expand to more complex textures</p>
+                    <ul>
+                        <li>Family foods (cut small)</li>
+                        <li>Whole grains</li>
+                        <li>Dairy products</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <h3>18-24 Months</h3>
+                    <p>Transition to regular family meals</p>
+                    <ul>
+                        <li>Varied textures</li>
+                        <li>All food groups</li>
+                        <li>Self-feeding skills</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Get in Touch</h2>
+            <div class="contact-form">
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>Dedicated to providing expert guidance on baby nutrition for ages 6 months to 2 years.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#nutrition">Nutrition</a></li>
+                    <li><a href="#recipes">Recipes</a></li>
+                    <li><a href="#feeding-guide">Feeding Guide</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Baby Nutrition Guide. All rights reserved.</p>
+            <p>Designed with ❤️ by Jewel Treasa Raphel</p>
+        </div>
+    </footer>
+</body>
+</html> 

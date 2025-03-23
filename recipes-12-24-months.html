@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes for 12-24 Months - Baby Food Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .recipe-header {
+            background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)),
+                        url('toddler-food.jpg') center/cover;
+            padding: 4rem 2rem;
+            text-align: center;
+            margin-top: 80px;
+        }
+
+        .recipe-header h1 {
+            color: #333;
+            margin-bottom: 1rem;
+        }
+
+        .recipe-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .recipe-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .recipe-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .recipe-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-bottom: 1px solid #eee;
+        }
+
+        .recipe-card h2 {
+            color: #e84615;
+            padding: 1rem;
+            margin: 0;
+        }
+
+        .recipe-content {
+            padding: 1rem;
+        }
+
+        .ingredients, .instructions, .modifications {
+            margin-bottom: 1rem;
+        }
+
+        .ingredients h3, .instructions h3, .modifications h3 {
+            color: #e84615;
+            margin-bottom: 0.5rem;
+        }
+
+        .ingredients ul {
+            list-style-type: disc;
+            padding-left: 1.5rem;
+        }
+
+        .instructions ol {
+            padding-left: 1.5rem;
+        }
+
+        .modifications {
+            background-color: #f9f9f9;
+            padding: 1rem;
+            border-radius: 5px;
+            margin-top: 1rem;
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background-color: #e84615;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: #d13f13;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Baby Food & Nutrition Guide</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#nutrition">Nutrition</a></li>
+                <li><a href="index.html#recipes">Recipes</a></li>
+                <li><a href="index.html#feeding-guide">Feeding Guide</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="recipe-header">
+            <h1>Recipes for 12-24 Months</h1>
+            <p>Family meals modified for your toddler's needs</p>
+        </section>
+
+        <div class="recipe-grid">
+            <div class="recipe-card">
+                <img src="meatballs.jpg" alt="Mini Turkey Meatballs" class="recipe-image">
+                <h2>Mini Turkey Meatballs</h2>
+                <div class="recipe-content">
+                    <div class="ingredients">
+                        <h3>Ingredients:</h3>
+                        <ul>
+                            <li>1 lb ground turkey</li>
+                            <li>1/2 cup breadcrumbs</li>
+                            <li>1 egg</li>
+                            <li>1/4 cup grated carrot</li>
+                            <li>1/4 cup grated zucchini</li>
+                            <li>1 tsp herbs (basil, oregano)</li>
+                        </ul>
+                    </div>
+                    <div class="instructions">
+                        <h3>Instructions:</h3>
+                        <ol>
+                            <li>Mix all ingredients well</li>
+                            <li>Form small, bite-sized meatballs</li>
+                            <li>Bake at 375°F for 15-20 minutes</li>
+                            <li>Let cool slightly before serving</li>
+                        </ol>
+                    </div>
+                    <div class="modifications">
+                        <h3>Toddler Modifications:</h3>
+                        <ul>
+                            <li>Make meatballs small enough to be bite-sized</li>
+                            <li>Cut in half if needed</li>
+                            <li>Serve with soft pasta or vegetables</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recipe-card">
+                <img src="veggiemac.jpg" alt="Veggie Mac and Cheese" class="recipe-image">
+                <h2>Veggie Mac and Cheese</h2>
+                <div class="recipe-content">
+                    <div class="ingredients">
+                        <h3>Ingredients:</h3>
+                        <ul>
+                            <li>2 cups whole grain pasta</li>
+                            <li>1 cup cheese sauce</li>
+                            <li>1/2 cup pureed butternut squash</li>
+                            <li>1/2 cup peas</li>
+                            <li>1/4 cup milk</li>
+                        </ul>
+                    </div>
+                    <div class="instructions">
+                        <h3>Instructions:</h3>
+                        <ol>
+                            <li>Cook pasta until tender</li>
+                            <li>Mix cheese sauce with squash puree</li>
+                            <li>Add cooked peas</li>
+                            <li>Combine with pasta</li>
+                        </ol>
+                    </div>
+                    <div class="modifications">
+                        <h3>Toddler Modifications:</h3>
+                        <ul>
+                            <li>Cut pasta into smaller pieces if needed</li>
+                            <li>Ensure vegetables are soft</li>
+                            <li>Let cool to appropriate temperature</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recipe-card">
+                <img src="fishes.jpg" alt="Homemade Fish Fingers" class="recipe-image">
+                <h2>Homemade Fish Fingers</h2>
+                <div class="recipe-content">
+                    <div class="ingredients">
+                        <h3>Ingredients:</h3>
+                        <ul>
+                            <li>2 fillets white fish</li>
+                            <li>1 cup breadcrumbs</li>
+                            <li>1 egg</li>
+                            <li>2 tbsp flour</li>
+                            <li>Lemon wedges</li>
+                        </ul>
+                    </div>
+                    <div class="instructions">
+                        <h3>Instructions:</h3>
+                        <ol>
+                            <li>Cut fish into strips</li>
+                            <li>Coat in flour, egg, then breadcrumbs</li>
+                            <li>Bake at 400°F for 15 minutes</li>
+                            <li>Serve with vegetables</li>
+                        </ol>
+                    </div>
+                    <div class="modifications">
+                        <h3>Toddler Modifications:</h3>
+                        <ul>
+                            <li>Check carefully for bones</li>
+                            <li>Cut into appropriate sizes</li>
+                            <li>Serve with soft vegetables</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recipe-card">
+                <img src="quinoa.jpg" alt="Quinoa Buddha Bowl" class="recipe-image">
+                <h2>Quinoa Buddha Bowl</h2>
+                <div class="recipe-content">
+                    <div class="ingredients">
+                        <h3>Ingredients:</h3>
+                        <ul>
+                            <li>1 cup cooked quinoa</li>
+                            <li>1 cup roasted vegetables</li>
+                            <li>1/2 cup chickpeas</li>
+                            <li>1/4 avocado</li>
+                            <li>Mild dressing</li>
+                        </ul>
+                    </div>
+                    <div class="instructions">
+                        <h3>Instructions:</h3>
+                        <ol>
+                            <li>Cook quinoa until soft</li>
+                            <li>Roast vegetables until tender</li>
+                            <li>Mash chickpeas slightly</li>
+                            <li>Combine all ingredients</li>
+                        </ol>
+                    </div>
+                    <div class="modifications">
+                        <h3>Toddler Modifications:</h3>
+                        <ul>
+                            <li>Cut vegetables into small pieces</li>
+                            <li>Mash chickpeas to prevent choking</li>
+                            <li>Serve components separately if preferred</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recipe-card">
+                <img src="mini.jpg" alt="Mini Vegetable Frittatas" class="recipe-image">
+                <h2>Mini Vegetable Frittatas</h2>
+                <div class="recipe-content">
+                    <div class="ingredients">
+                        <h3>Ingredients:</h3>
+                        <ul>
+                            <li>6 eggs</li>
+                            <li>1/2 cup milk</li>
+                            <li>1 cup mixed vegetables</li>
+                            <li>1/2 cup cheese</li>
+                            <li>Herbs to taste</li>
+                        </ul>
+                    </div>
+                    <div class="instructions">
+                        <h3>Instructions:</h3>
+                        <ol>
+                            <li>Whisk eggs and milk</li>
+                            <li>Add chopped vegetables</li>
+                            <li>Pour into muffin tins</li>
+                            <li>Bake at 350°F for 20 minutes</li>
+                        </ol>
+                    </div>
+                    <div class="modifications">
+                        <h3>Toddler Modifications:</h3>
+                        <ul>
+                            <li>Cut into small pieces</li>
+                            <li>Ensure vegetables are finely chopped</li>
+                            <li>Serve at room temperature</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recipe-card">
+                <img src="rice.jpg" alt="Chicken Rice Bowl" class="recipe-image">
+                <h2>Chicken Rice Bowl</h2>
+                <div class="recipe-content">
+                    <div class="ingredients">
+                        <h3>Ingredients:</h3>
+                        <ul>
+                            <li>1 cup cooked brown rice</li>
+                            <li>1 cup shredded chicken</li>
+                            <li>1 cup steamed vegetables</li>
+                            <li>Mild sauce</li>
+                            <li>Avocado slices</li>
+                        </ul>
+                    </div>
+                    <div class="instructions">
+                        <h3>Instructions:</h3>
+                        <ol>
+                            <li>Cook rice until very tender</li>
+                            <li>Steam vegetables until soft</li>
+                            <li>Shred cooked chicken</li>
+                            <li>Assemble in sections</li>
+                        </ol>
+                    </div>
+                    <div class="modifications">
+                        <h3>Toddler Modifications:</h3>
+                        <ul>
+                            <li>Cut all ingredients into small pieces</li>
+                            <li>Serve components separately</li>
+                            <li>Use mild, age-appropriate sauce</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a href="index.html#recipes" class="back-button">
+            <i class="fas fa-arrow-left"></i> Back to Recipes
+        </a>
+    </main>
+</body>
+</html> 
